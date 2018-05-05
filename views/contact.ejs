@@ -1,2 +1,34 @@
 <% include partials/header %>
-<% include partials/footer %>
+
+   <div class="container form my-5">
+      <div class="form-brand">
+         <img src="/image/fav.jpeg" width="30" height="30" alt=""> OmaxTech
+         </a>
+      </div>
+
+      <form class="" action="/contact" method="post">
+         <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Enter Full name" autofocus required>
+            <small id="emailHelp" class="form-text text-muted"></small>
+         </div>
+         <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" name="email" class="form-control" placeholder="Enter email" required>
+         </div>
+         <div class="form-group">
+            <label for="Number">Contact Number</label>
+            <input type="number" name="number" class="form-control" placeholder="Mobile Number">
+            <small id="emailHelp" class="form-text text-muted">(It makes it easier for us to get back to you)</small>
+         </div>
+         <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your message</label>
+            <textarea name="content" class="form-control" rows="5" required></textarea>
+         </div>
+
+         <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+   </div>
+
+
+   <% include partials/footer %>
