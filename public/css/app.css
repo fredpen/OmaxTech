@@ -24,14 +24,16 @@ footer {
    min-height: 25vh;
 }
 
-.form-brand, .form-brand img{
+.form-brand, .form-brand img {
    max-width: 300px;
    margin: 10px auto;
 }
-hr{
+
+hr {
    color: red;
    width: 400px;
 }
+
 .get_started {
    position: absolute;
    top: 90vh;
@@ -39,6 +41,12 @@ hr{
    z-index: 50000;
 }
 
+#get_started {
+   font-size: 1.5em;
+   color: white;
+   font-weight: bold;
+   background: #00000094;
+}
 
 @media screen and (min-width: 1140px) {
    .form {
@@ -56,4 +64,24 @@ hr{
    .form {
       width: 90%;
    }
+}
+
+.h {
+   min-height: 30vh;
+}
+
+footer {
+   background: #6c757dcc;
+
+}
+
+.footer {
+   min-height: 7vh;
+   align-items: center;
+   background-color: black;
+   color: white;
+}
+.footer-list, .list-group-item.disabled{
+   background: #6c757dcc;
+   color: white;
 }

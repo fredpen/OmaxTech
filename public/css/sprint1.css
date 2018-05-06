@@ -52,6 +52,8 @@
     position: relative;
     bottom: 200px;
 }
+
+
 .cb-slideshow li:nth-child(1) span {
     background-image: url(/image/1.jpg)
 }
