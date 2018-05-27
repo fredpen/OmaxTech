@@ -19,7 +19,7 @@ app.get("/", function(req, res) {
 
 // the home page route
 app.get("/home", function(req, res) {
-   res.render("home")
+   res.render("landing")
 });
 
 // about page route

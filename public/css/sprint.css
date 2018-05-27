@@ -1,4 +1,6 @@
-
+#page{
+	margin:0;
+}
 /* Header Style */
 .codrops-top{
 	font-family: Arial, sans-serif;
